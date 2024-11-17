@@ -1,0 +1,18 @@
+{
+    "name": "dog-image-generator",
+    "version": "1.0.0",
+    "description": "Générateur d'images de chiens utilisant l'API Dog CEO.",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js"
+    },
+    "dependencies": {
+      "node-fetch": "^2.6.7"
+    },
+    "devDependencies": {
+      "typescript": "^5.0.0",
+      "@types/node": "^20.0.0"
+    }
+  }
+  
